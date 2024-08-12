@@ -1,0 +1,56 @@
+html, body {
+   font-family: "Karla", sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color:  hsl(148, 38%, 91%);
+}
+
+h2 {
+   color: hsl(187, 24%, 22%);
+}
+
+.container {
+   width: 600px;
+   height: 550px;
+
+   margin: auto;
+   margin-top: 15px;
+
+   background-color: hsl(0, 0%, 100%);
+   padding: 30px;
+   border-radius: 10px;
+}
+
+.card-inputnames {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-name {
+   width: 250px;
+   height: 35px;
+
+   border-radius: 6px;
+   border: 1px solid hsl(169, 82%, 27%);
+}
+
+.input-sobrenome {
+   width: 250px;
+   height: 35px;
+
+   border-radius: 6px;
+   border: 1px solid hsl(169, 82%, 27%);
+}
+
+.input-email {
+   width: 600px;
+   height: 35px;
+
+   border-radius: 6px;
+   border: 1px solid hsl(169, 82%, 27%);
+}
+
+.card-radios {
+   display: flex;
+   justify-content: space-between;
+}
